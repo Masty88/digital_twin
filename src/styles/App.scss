@@ -1,0 +1,37 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  color: white;
+  height: 100%;
+  max-height: 100%;
+  overflow-y: hidden;
+  font-family: "Roboto Thin", Arial, sans-serif;
+  //font-family: "BBCB", Arial, sans-serif;
+}
+
+button{
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+#root{
+  height:100%;
+  .rootLayout{
+    height: 100%;
+    main{
+      max-height: 100%;
+      background-color: #61dafb;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+@import "src/styles/Layout/Navigation";
+@import "src/styles/Containers/HomeViever";
+@import "src/styles/Layout/Footer";
+@import "Loader";
