@@ -35,9 +35,9 @@ function App() {
         }
     },[])
 
-    if (!connected) {
-        return <Loading isLoading={true}/>
-    }
+    // if (!connected) {
+    //     return <Loading isLoading={true}/>
+    // }
     return (
     <RouterProvider router={router}/>
   );
